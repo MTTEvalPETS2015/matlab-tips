@@ -59,9 +59,13 @@
 #### Simple Display of Program File Dependencies
 > [mfiles, mexfiles] = inmem
 
-
 #### Detailed Display of Program File Dependencies
 > use the matlab.codetools.requiredFilesAndProducts function
 
-#### Dependencies Within a Folder
+#### Dependencies Within a Folder by Creating Dependency Reports
+> - The Dependency Report shows dependencies among MATLAB files in a folder
+> - Use this report to determine:
+>   - Which files in the folder are required by other files in the folder
+>   - If any files in the current folder will fail if you delete a file
+>   - If any called files are missing from the current folder
 
